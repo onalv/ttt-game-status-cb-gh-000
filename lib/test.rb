@@ -20,7 +20,7 @@ def won?(board)
   #   # position_1 = board[win_index_1]
   #   # position_2 = board[win_index_2]
   #   # position_3 = board[win_index_3]
-  # 
+  #
   #   # if position_1 == position_2 && position_2 == position_3
   #   #   return win_combination
   #   # else
@@ -30,7 +30,7 @@ def won?(board)
 end
 
 print won?([" ", " ", " ", " ", " ", " ", " ", " ", " "])
-print won?(["X", "X", "X", "O", "O", " ", " ", " ", " "]) #top
-print won?(["X", "O", "X", "O", "X", "X", "O", "X", "O"]) #draw
-print won?(["O", "O", " ", "X", "X", "X", " ", " ", " "]) #middle
-print won?(["O", " ", "X", "O", " ", "X", "O", " ", " "]) #left
+# print won?(["X", "X", "X", "O", "O", " ", " ", " ", " "]) #top
+# print won?(["X", "O", "X", "O", "X", "X", "O", "X", "O"]) #draw
+# print won?(["O", "O", " ", "X", "X", "X", " ", " ", " "]) #middle
+# print won?(["O", " ", "X", "O", " ", "X", "O", " ", " "]) #left
