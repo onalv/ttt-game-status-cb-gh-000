@@ -27,8 +27,8 @@ def won?(board)
   end
 end
 
-won?([" ", " ", " ", " ", " ", " ", " ", " ", " "])
-won?(["X", "X", "X", "O", "O", " ", " ", " ", " "]) #top
-won?(["X", "O", "X", "O", "X", "X", "O", "X", "O"]) #draw
-won?(["O", "O", " ", "X", "X", "X", " ", " ", " "]) #middle
-won?(["O", " ", "X", "O", " ", "X", "O", " ", " "]) #left
+puts won?([" ", " ", " ", " ", " ", " ", " ", " ", " "])
+puts won?(["X", "X", "X", "O", "O", " ", " ", " ", " "]) #top
+puts won?(["X", "O", "X", "O", "X", "X", "O", "X", "O"]) #draw
+puts won?(["O", "O", " ", "X", "X", "X", " ", " ", " "]) #middle
+puts won?(["O", " ", "X", "O", " ", "X", "O", " ", " "]) #left
