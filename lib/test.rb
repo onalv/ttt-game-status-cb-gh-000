@@ -10,7 +10,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  print WIN_COMBINATIONS
   WIN_COMBINATIONS.each do |win_combination|
     print win_combination
     # win_index_1 = win_combination[0]
@@ -20,7 +19,7 @@ def won?(board)
     # position_1 = board[win_index_1]
     # position_2 = board[win_index_2]
     # position_3 = board[win_index_3]
-  
+
     # if position_1 == position_2 && position_2 == position_3
     #   return win_combination
     # else
