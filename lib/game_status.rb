@@ -26,13 +26,7 @@ def won?(board)
     position_3 = board[win_index_3]
 
     if win_combination = [3,4,5]
-      print win_combination
-      puts win_index_1
-      puts win_index_2
-      puts win_index_3
-      puts position_1
-      puts position_2
-      puts position_3
+      print win_combination + win_index_1 + win_index_2 + win_index_3 + position_1 + position_2 + position_3
     end
 
     if position_1 == position_2 && position_2 == position_3
