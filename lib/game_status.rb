@@ -28,7 +28,7 @@ def won?(board)
     if win_combination = [0,3,6]
       puts win_combination
     end
-    
+
     if position_1 == position_2 && position_2 == position_3
       return win_combination
     else
