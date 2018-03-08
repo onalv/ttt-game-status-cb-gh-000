@@ -44,6 +44,6 @@ end
 
 # print won?([" ", " ", " ", " ", " ", " ", " ", " ", " "])
 # print won?(["X", "X", "X", "O", "O", " ", " ", " ", " "]) #top
-print won?(["X", "O", "X", "O", "X", "X", "O", "X", "O"]) #draw
+print won?(["X", "O", "X", "O", "X", "X", "O", "O", "O"]) #draw
 # print won?(["O", "O", " ", "X", "X", "X", " ", " ", " "]) #middle
 # print won?(["O", " ", "X", "O", " ", "X", "O", " ", " "]) #left
