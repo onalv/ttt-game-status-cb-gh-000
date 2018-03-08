@@ -5,3 +5,23 @@ end
 
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS
+
+def won?
+
+end
+
+def full?
+
+end
+
+def draw?
+
+end
+
+def over?
+
+end
+
+def winner
+
+end
