@@ -25,7 +25,7 @@ def won?(board)
     position_2 = board[win_index_2]
     position_3 = board[win_index_3]
 
-    if win_combination = [0,3,6]
+    if win_combination = [3,4,5]
       print win_combination
       puts win_index_1
       puts win_index_2
