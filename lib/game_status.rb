@@ -25,28 +25,10 @@ def won?(board)
     position_2 = board[win_index_2]
     position_3 = board[win_index_3]
 
-    if position_taken(board, win_index_1) && position_taken(board, win_index_2) && position_taken(board, win_index_1)
-      if position_1 == position_2 && position_2 == position_3
-        return win_combination
-      else
-        return false
-      end
+    if position_1 == position_2 && position_2 == position_3
+      return win_combination
+    else
+      return false
     end
   end
-end
-
-def full?
-
-end
-
-def draw?
-
-end
-
-def over?
-
-end
-
-def winner
-
 end
