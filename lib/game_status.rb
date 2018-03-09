@@ -41,16 +41,16 @@ print won?(board)
 board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
 print won?(board)
 board = ["O", "O", " ", "X", "X", "X", " ", " ", " "]
-won?(board)
+print won?(board)
 board = [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
-won?(board)
+print won?(board)
 board = ["O", " ", "X", "O", " ", "X", "O", " ", " "]
-won?(board)
+print won?(board)
 board = ["X", "O", " ", "X", "O", " ", " ", "O", " "]
-won?(board)
+print won?(board)
 board = ["X", " ", "O", "X", " ", "O", " ", " ", "O"]
-won?(board)
+print won?(board)
 board = ["X", " ", "O", " ", "X", "O", " ", " ", "X"]
-won?(board)
+print won?(board)
 board = ["X", " ", "O", "X", "O", " ", "O", " ", " "]
-won?(board)
+print won?(board)
