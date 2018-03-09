@@ -32,3 +32,25 @@ def won?(board)
     end
   end
 end
+
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+won?(board)
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+won?(board)
+board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
+won?(board)
+board = ["O", "O", " ", "X", "X", "X", " ", " ", " "]
+won?(board)
+board = [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
+won?(board)
+board = ["O", " ", "X", "O", " ", "X", "O", " ", " "]
+won?(board)
+board = ["X", "O", " ", "X", "O", " ", " ", "O", " "]
+won?(board)
+board = ["X", " ", "O", "X", " ", "O", " ", " ", "O"]
+won?(board)
+board = ["X", " ", "O", " ", "X", "O", " ", " ", "X"]
+won?(board)
+board = ["X", " ", "O", "X", "O", " ", "O", " ", " "]
+won?(board)
