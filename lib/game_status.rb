@@ -37,9 +37,9 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 print won?(board)
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-puts won?(board)
+print won?(board)
 board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
-puts won?(board)
+print won?(board)
 board = ["O", "O", " ", "X", "X", "X", " ", " ", " "]
 won?(board)
 board = [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
