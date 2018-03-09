@@ -35,7 +35,7 @@ end
 
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-won?(board)
+print won?(board)
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 won?(board)
 board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
