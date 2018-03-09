@@ -43,7 +43,7 @@ print won?(board) #[0,1,2]
 board = ["O", "O", " ", "X", "X", "X", " ", " ", " "]
 print won?(board) #[3,4,5]
 board = [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
-print won?(board)
+print won?(board) #[6,7,8]
 board = ["O", " ", "X", "O", " ", "X", "O", " ", " "]
 print won?(board)
 board = ["X", "O", " ", "X", "O", " ", " ", "O", " "]
